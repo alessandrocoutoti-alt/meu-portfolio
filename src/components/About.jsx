@@ -6,7 +6,7 @@ export default function About() {
         <p className="about__text">
           Sou um estudante em Manaus - AM, apaixonado por tecnologia e por resolver problemas reais.
           Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, estou estudando Java a
-           fundo orientação a objetos, e caminhando em
+          fundo orientação a objetos, e caminhando em
           direção a construir sistemas completos, do banco de dados à
           interface. Com um grande sonho em me tornar um Desenvolvedor BackEnd.
         </p>
