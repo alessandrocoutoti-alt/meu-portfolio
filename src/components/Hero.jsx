@@ -4,8 +4,7 @@ export default function Hero() {
       <div className="container">
         <p className="hero__eyebrow">Desenvolvedor</p>
         <h1 className="hero__title">
-          Alessandro constrói ferramentas que resolvem
-          problemas de verdade.
+          Desenvolvendo a lógica e a arquitetura robusta por trás das aplicações
         </h1>
         <a className="hero__cta" href="#projetos">
           Ver projetos

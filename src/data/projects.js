@@ -8,7 +8,7 @@ export const projects = [
     descricao:
       "Site pessoal construído em React, pensado para crescer junto com os próximos projetos — cada novo trabalho entra aqui.",
     tecnologias: ["React", "Vite", "CSS"],
-    link: "",
+    link: "https://github.com/alessandrocoutoti-alt/meu-portfolio",
   },
   {
     titulo: "api-contatos-flask",
