@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <p className="hero__eyebrow">Desenvolvedor · Java & React</p>
+        <p className="hero__eyebrow">Desenvolvedor</p>
         <h1 className="hero__title">
           Alessandro constrói ferramentas que resolvem
           problemas de verdade.
