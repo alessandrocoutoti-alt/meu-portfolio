@@ -13,8 +13,3 @@ Não precisa mexer em nenhum componente.
 2. Crie conta na Vercel (vercel.com) e conecte o repositório
 3. A Vercel detecta que é Vite/React automaticamente e faz o deploy
 
-## Próximos passos sugeridos
-- Trocar os placeholders (nome, e-mail, links de contato) pelos seus dados reais
-- Adicionar imagens dos projetos (pode criar uma pasta `src/assets/`)
-- Quando o backend em Spring Boot estiver pronto, trocar `src/data/projects.js`
-  por uma chamada `fetch` na API
