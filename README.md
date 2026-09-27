@@ -11,4 +11,9 @@ Não precisa mexer em nenhum componente.
 ## Como fazer deploy
 1. Suba este código num repositório no GitHub
 2. Crie conta na Vercel (vercel.com) e conecte o repositório
+<<<<<<< HEAD
 3. A Vercel detecta que é Vite/React automaticamente e faz o deploy
+=======
+3. A Vercel detecta que é Vite/React automaticamente e faz o deploy
+
+>>>>>>> 8c9460faf09141ed380795fcdf1d5d28a923983a
