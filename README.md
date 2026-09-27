@@ -12,4 +12,3 @@ Não precisa mexer em nenhum componente.
 1. Suba este código num repositório no GitHub
 2. Crie conta na Vercel (vercel.com) e conecte o repositório
 3. A Vercel detecta que é Vite/React automaticamente e faz o deploy
-

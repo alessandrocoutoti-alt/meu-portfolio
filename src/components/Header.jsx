@@ -24,6 +24,8 @@ export default function Header() {
           align-items: center;
           justify-content: space-between;
           padding: 18px 24px;
+          flex-wrap: wrap;
+          gap: 12px;
         }
         .header__mark {
           font-family: var(--font-display);
@@ -43,6 +45,19 @@ export default function Header() {
         .header__nav a:hover,
         .header__nav a:focus-visible {
           color: var(--paper);
+        }
+
+        /* @media agora é o ÚLTIMO bloco do arquivo */
+        @media (max-width: 480px) {
+          .header__mark {
+            font-size: 1.3rem;
+          }
+          .header__nav {
+            gap: 16px;
+          }
+          .header__nav a {
+            font-size: 0.8rem;
+          }
         }
       `}</style>
     </header>
