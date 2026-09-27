@@ -47,13 +47,18 @@ export default function Header() {
           color: var(--paper);
         }
 
-        /* @media agora é o ÚLTIMO bloco do arquivo */
-        @media (max-width: 480px) {
+        /*@media (max-width: 480px) {
+          .header__inner {
+            justify-content: center;
+            text-align: center;
+          }
           .header__mark {
             font-size: 1.3rem;
           }
           .header__nav {
             gap: 16px;
+            justify-content: center;
+            width: 100%;
           }
           .header__nav a {
             font-size: 0.8rem;
