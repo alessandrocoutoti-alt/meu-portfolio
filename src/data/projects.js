@@ -12,7 +12,7 @@ export const projects = [
     titulo: "Gerenciador de tarefas em Java",
     ano: "2026",
     descricao: "Aplicação de gerenciamento de tarefas em Java, desenvolvida para praticar a organização do código com programação orientada a objetos.",
-    tecnologias: ["Java", "POO"],
+    tecnologias: ["Java"],
     link: "https://github.com/alessandrocoutoti-alt/gerenciador-tarefas-java",
   },
   {
