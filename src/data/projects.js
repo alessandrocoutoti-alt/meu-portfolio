@@ -9,11 +9,11 @@ export const projects = [
     link: "https://github.com/alessandrocoutoti-alt/api-contatos-flask",
   },
   {
-    titulo: "Gerenciador de tarefas",
+    titulo: "Gerenciador de tarefas em Java",
     ano: "2026",
-    descricao: "Aplicação de gerenciamento de tarefas em Python, desenvolvida para praticar a organização do código com programação orientada a objetos.",
-    tecnologias: ["Python", "POO"],
-    link: "https://github.com/alessandrocoutoti-alt/task-manager-oop",
+    descricao: "Aplicação de gerenciamento de tarefas em Java, desenvolvida para praticar a organização do código com programação orientada a objetos.",
+    tecnologias: ["Java", "POO"],
+    link: "https://github.com/alessandrocoutoti-alt/gerenciador-tarefas-java",
   },
   {
     titulo: "Gerenciador de contatos com SQLite",
