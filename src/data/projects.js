@@ -1,41 +1,32 @@
-// Adicione um novo projeto copiando um objeto do array abaixo.
-// Nenhum outro arquivo precisa ser tocado quando você adiciona um projeto novo.
-
+// Adicione um objeto a esta lista para exibir um novo projeto.
 export const projects = [
   {
-    titulo: "Este Portfólio",
+    titulo: "API de contatos",
     ano: "2026",
-    descricao:
-      "Site pessoal construído em React, pensado para crescer junto com os próximos projetos — cada novo trabalho entra aqui.",
-    tecnologias: ["React", "Vite", "CSS"],
-    link: "https://github.com/alessandrocoutoti-alt/meu-portfolio",
-  },
-  {
-    titulo: "api-contatos-flask",
-    ano: "2026",
-    descricao: "Uma API RESTful para gerenciamento de contatos, desenvolvida em Python utilizando o framework Flask e o banco de dados relacional SQLite.",
+    destaque: true,
+    descricao: "API para gerenciamento de contatos com Flask e SQLite. Um projeto para praticar a construção de serviços REST e a persistência de dados em um banco relacional.",
     tecnologias: ["Python", "Flask", "SQLite"],
     link: "https://github.com/alessandrocoutoti-alt/api-contatos-flask",
   },
   {
-    titulo: "task-manager-oop",
+    titulo: "Gerenciador de tarefas",
     ano: "2026",
-    descricao: "Um gerenciador de tarefas simples desenvolvido em Python utilizando Programação Orientada a Objetos (POO).",
-    tecnologias: ["Python"],
+    descricao: "Aplicação de gerenciamento de tarefas em Python, desenvolvida para praticar a organização do código com programação orientada a objetos.",
+    tecnologias: ["Python", "POO"],
     link: "https://github.com/alessandrocoutoti-alt/task-manager-oop",
   },
   {
-    titulo: "contact-manager-sql",
+    titulo: "Gerenciador de contatos com SQLite",
     ano: "2026",
-    descricao: "Um sistema de gerenciamento de contatos interativo, simples e persistente via linha de comando (CLI), desenvolvido em Python e utilizando SQLite para persistência de dados O projeto permite que o usuário adicione, liste, atualize e remova contatos diretamente pelo terminal, salvando os dados em um banco de dados local.",
+    descricao: "Sistema de terminal para adicionar, consultar, atualizar e remover contatos. Os dados são armazenados em SQLite, integrando operações de CRUD à persistência local.",
     tecnologias: ["Python", "SQLite"],
     link: "https://github.com/alessandrocoutoti-alt/contact-manager-sql",
   },
-  // {
-  //   titulo: "Nome do próximo projeto",
-  //   ano: "2026",
-  //   descricao: "Descrição curta e direta do que o projeto resolve.",
-  //   tecnologias: ["Java", "Spring Boot"],
-  //   link: "https://github.com/seu-usuario/projeto",
-  // },
+  {
+    titulo: "Este portfólio",
+    ano: "2026",
+    descricao: "Meu espaço para apresentar projetos e acompanhar minha evolução. Construído com componentes React e layout responsivo, com atenção à leitura e à navegação por teclado.",
+    tecnologias: ["React", "Vite", "CSS"],
+    link: "https://github.com/alessandrocoutoti-alt/meu-portfolio",
+  },
 ];

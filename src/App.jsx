@@ -7,13 +7,15 @@ import Contact from "./components/Contact.jsx";
 export default function App() {
   return (
     <>
+      <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
       <Header />
-      <main>
+      <main id="conteudo" tabIndex={-1}>
         <Hero />
-        <About />
         <Projects />
+        <About />
         <Contact />
       </main>
+      <footer className="footer"><div className="container">Alessandro Vinícius · Manaus, AM</div></footer>
     </>
   );
 }

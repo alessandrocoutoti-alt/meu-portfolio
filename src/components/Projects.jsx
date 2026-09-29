@@ -5,23 +5,15 @@ export default function Projects() {
   return (
     <section id="projetos" className="projects">
       <div className="container">
+        <p className="section-label">DO ESTUDO À PRÁTICA</p>
         <h2 className="projects__title">Projetos</h2>
+        <p className="section-intro">Uma seleção do que venho construindo e aprendendo.</p>
         <ul className="projects__list">
           {projects.map((p) => (
             <ProjectRow key={p.titulo} projeto={p} />
           ))}
         </ul>
       </div>
-
-      <style>{`
-        .projects__title {
-          font-size: 1.6rem;
-          margin-bottom: 32px;
-        }
-        .projects__list {
-          border-top: 1px solid rgba(232, 228, 216, 0.12);
-        }
-      `}</style>
     </section>
   );
 }

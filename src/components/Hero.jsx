@@ -1,51 +1,15 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="inicio" className="hero" aria-labelledby="hero-title">
       <div className="container">
-        <p className="hero__eyebrow">Desenvolvedor</p>
-        <h1 className="hero__title">
-          Desenvolvendo a lógica e a arquitetura robusta por trás das aplicações
-        </h1>
-        <a className="hero__cta" href="#projetos">
-          Ver projetos
-        </a>
+        <p className="hero__eyebrow">DESENVOLVIMENTO BACK-END · EM FORMAÇÃO</p>
+        <h1 id="hero-title" className="hero__title">Da lógica ao código.<br />Ideias que viram sistemas.</h1>
+        <p className="hero__lede">Sou Alessandro, estudante de Análise e Desenvolvimento de Sistemas em Manaus. Desenvolvo projetos com Python e SQLite e aprofundo meus estudos em Java.</p>
+        <div className="hero__actions">
+          <a className="hero__cta" href="#projetos">Conheça meus projetos <span aria-hidden="true">↓</span></a>
+          <a className="hero__secondary" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
-
-      <style>{`
-        .hero {
-          padding-top: 120px;
-          padding-bottom: 80px;
-        }
-        .hero__eyebrow {
-          color: var(--sage);
-          font-size: 0.9rem;
-          margin-bottom: 20px;
-        }
-        .hero__title {
-          font-size: clamp(2rem, 5vw, 3.2rem);
-          max-width: 14ch;
-          margin-bottom: 24px;
-        }
-        .hero__lede {
-          max-width: 46ch;
-          color: var(--paper-muted);
-          font-size: 1.05rem;
-          margin-bottom: 32px;
-        }
-        .hero__cta {
-          display: inline-block;
-          text-decoration: none;
-          color: var(--ink);
-          background: var(--brass);
-          padding: 12px 22px;
-          font-size: 0.95rem;
-          border-radius: 2px;
-          transition: transform 0.15s ease;
-        }
-        .hero__cta:hover {
-          transform: translateY(-2px);
-        }
-      `}</style>
     </section>
   );
 }
